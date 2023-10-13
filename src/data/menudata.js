@@ -16,52 +16,52 @@ export const menuData = [
                 subchild: [
                     {
                         text: "Finish Goods",
-                        link: "item-groups",
+                        link: "finish-goods",
                         subchild: [
                             {
                                 text: "Finish Good Red Xl ",
-                                link: "item-groups",
+                                link: "finish-good-sub",
                             },
                         ]
                     },
                     {
                         text: "T Shirts",
-                        link: "item-groups",
+                        link: "t-shirts",
                         subchild: [
                             {
                                 text: "T Shirts 1 ",
-                                link: "item-groups",
+                                link: "t-shirts",
                             },
                             {
                                 text: "T Shirts 2 ",
-                                link: "item-groups",
+                                link: "t-shirts-2",
                             },
                         ]
                     },
                     {
                         text: "Dasds",
-                        link: "item-groups",
+                        link: "dasds",
                         subchild: [
                             {
                                 text: "bronze",
-                                link: "item-groups",
+                                link: "cat",
                             },
                             {
                                 text: "Golds",
-                                link: "item-groups",
+                                link: "golds",
                             },
                         ]
                     },
                     {
                         text: "Saree",
-                        link: "item-groups",
+                        link: "saree",
                     },
-                    
+
                 ]
             },
             {
                 text: "item",
-                link: "item",
+                link: "comming-soon",
             },
             {
                 text: "Price lists",

@@ -3,7 +3,8 @@
 import { menuData } from "@/data/menudata";
 import MenuItem from "./MenuItem";
 import useStore from "@/state/store";
-import CategoryMenu from "@/app/CategoryMenu/CategoryMenu";
+import CategoryMenu from "./CategoryMenu";
+
 
 const Sidebar = () => {
     const { toggleCategoryMenu } = useStore();
