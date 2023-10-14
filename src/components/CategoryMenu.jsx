@@ -11,7 +11,7 @@ const CategoryMenu = () => {
     const { categoryMenuData } = useStore();
 
     return (
-        <div className="fixed left-0 top-0 lg:static h-screen   bg-slate-200" ref={elementRef}>
+        <div className="fixed left-0 top-0 lg:static h-screen   bg-slate-200" >
             <CategoryMenuHeader />
             <div className=" cursor-pointer">
                 {categoryMenuData.map((category, index) => (
