@@ -30,7 +30,7 @@ export const menuData = [
                         subchild: [
                             {
                                 text: "T Shirts 1 ",
-                                link: "t-shirts",
+                                link: "t-shirts-1",
                             },
                             {
                                 text: "T Shirts 2 ",
@@ -44,7 +44,7 @@ export const menuData = [
                         subchild: [
                             {
                                 text: "bronze",
-                                link: "cat",
+                                link: "bronze",
                             },
                             {
                                 text: "Golds",
@@ -55,6 +55,16 @@ export const menuData = [
                     {
                         text: "Saree",
                         link: "saree",
+                        subchild: [
+                            {
+                                text: "saree item 1",
+                                link: "saree-item-1",
+                            },
+                            {
+                                text: "saree item 2",
+                                link: "saree-item-2",
+                            },
+                        ]
                     },
 
                 ]

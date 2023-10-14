@@ -10,7 +10,7 @@ const MainCategory = ({ category }) => {
     const pathname = usePathname()
 
     return (
-        <ul>
+        <ul >
             <li>
 
                 <Link href={category.link} className="flex items-center space-x-4 border border-b border-gray-300 py-2 px-5">

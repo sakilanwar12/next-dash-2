@@ -3,7 +3,7 @@
 const DemoData = ({ pageName }) => {
     return (
   
-        <div className=" px-20 mt-20">
+        <div className=" px-5 xl:px-20 mt-20">
             <div className="shadow-sm bg-white p-5">
                 <h2 className="text-lg font-medium text-slate-500">Page Title: <span className="text-slate-800">{pageName}</span></h2>
             </div>

@@ -4,15 +4,14 @@ import CategoryMenuHeader from "./CategoryMenuHeader";
 import MainCategory from "./MainCategory";
 
 // CategoryMenu component
+
 const CategoryMenu = () => {
     const { categoryMenuData } = useStore();
 
-
-
     return (
-        <div className="h-screen w-[350px] bg-slate-200">
+        <div className="fixed left-0 top-0 lg:static h-screen   bg-slate-200">
             <CategoryMenuHeader />
-            <div className="mt-10 cursor-pointer">
+            <div className=" cursor-pointer">
                 {categoryMenuData.map((category, index) => (
                     <MainCategory key={index} category={category}  />
                 ))}
