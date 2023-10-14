@@ -7,8 +7,6 @@ import CategoryMenu from "./CategoryMenu";
 import { useState } from "react";
 
 
-
-
 const Sidebar = () => {
     const { toggleCategoryMenu } = useStore();
     const [showSidebar, setShowSidebar] = useState(false);
@@ -28,14 +26,10 @@ const Sidebar = () => {
 
                 </ul>
             </nav>
-        
-                {
-                    toggleCategoryMenu && <CategoryMenu />
-                }
-      
 
-
-
+            {
+                toggleCategoryMenu && <CategoryMenu />
+            }
 
         </div>
     );
